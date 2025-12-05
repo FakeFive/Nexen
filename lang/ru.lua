@@ -1,0 +1,130 @@
+--========================================================--
+--                   TRANSLATION GUIDELINES               --
+--========================================================--
+
+-- 1. DO NOT CHANGE THE KEYS
+--    Keys (left side) must remain 100% identical.
+--    Example:
+--        correct:  exit = "Keluar"
+--        wrong:    keluar = "Keluar"      <-- CHANGED KEY (NOT ALLOWED)
+
+-- 2. ONLY TRANSLATE THE TEXT ON THE RIGHT SIDE
+--    Example:
+--        exit = "Exit"    -->   exit = "Keluar"
+
+-- 3. KEEP PLACEHOLDERS LIKE %s OR %d IN THE SAME POSITION
+--    If a string contains %s, keep it.
+--    Example:
+--       gpm_already = "Get Page Method is already %s"
+--    You MUST keep the %s in your translation.
+
+-- 4. KEEP PUNCTUATION UNCHANGED
+--    Keep ! ? . : " ' and formatting the same unless your language
+--    naturally requires different punctuation.
+
+-- 5. DO NOT ADD OR REMOVE KEYS
+--    Do not create new keys or delete anything, even if not used.
+
+-- 6. DO NOT BREAK LUA SYNTAX
+--    If your translation needs a double quote, escape it:
+--        "He said \"hello\" to me"
+--    If your language uses apostrophes ('):
+--        use double quotes: "don't"
+
+-- 7. IF YOU DON'T KNOW HOW TO TRANSLATE SOMETHING
+--    Leave the English text and inform the lead translator.
+
+-- 8. ALWAYS TEST YOUR FILE
+--    Run the script to ensure no syntax errors.
+
+-- 9. FILE MUST RETURN A TABLE
+--    Example:
+--        return {
+--            exit = "Keluar",
+--            home = "Beranda",
+--        }
+
+-- 10. IF A STRING IS TOO LONG
+--     Try to keep translations short so UI doesn't break.
+
+--========================================================--
+--        Thank you for contributing to the project!       --
+--========================================================--
+return = gg.alert
+return {
+	gg_not_supported = "Используйте Zevrythel Modz GameGuardian",
+	not_hcr2_process = "Выберите \"Hill Climb Racing 2\" (com.fingersoft.hcr2) процесс",
+	lib_not_found = "\"libcocos2dcpp.so\" не найден!",
+	arch_not_supported = "Используйте версию Hill Climb Racing 2 на arm64.",
+	version_not_supported = "Используйте Hill Climb Racing 2 версии",
+	do_not_interrupt = "Не останавливайте",
+	get_lib_failed = "Не удалось получить (%s) библиотеку, кэш недоступен.",
+	lib_error = "Ошибка Библиотеки",
+	lib_runtime_error = "Превышено время ожидания библиотеки",
+	animation_error = "Ошибка Анимации",
+	gamestatus_not_found = "GameStatus не найден",
+	yes = "Да",
+	no = "Нет",
+	home = "Главная",
+	back = "Назад",
+	exit = "Выход",
+	error = "Ошибка",
+	change = "Изменение",
+	alert = "Внимание",
+	toast = "Уведомление",
+	print = "Сообщение",
+	invalid_item = "Неверный элемент",
+	no_action = "Бездействие",
+	name_too_long = "Никнейм слишком длинный, он будет принудельно сокращён",
+	enter_new_name = "Введите новый Никнейм",
+	name_can_not_empty = "Никнейм не может быть пустым",
+	name_change_success = "Никнейм изменён",
+	temp_unban = "Временно Разбанен",
+	account_menu = "Аккаунт",
+	player_menu = "Игрок", 
+	adventure_menu = "Приключения",
+	cups_menu = "Кубки",
+	team_menu = "Команда",
+	event_menu = "Событие",
+	creative_menu = "Творческий Режим",
+	shop_menu = "Магазин",
+	tool_menu = "Отладка",
+	settings_menu = "Настройки",
+	developer_menu = "Меню Разработчика",
+	unknown = "Неизвестно",
+	autowin_enabled = "Авто Победа Включена",
+	autowin_disabled = "Авто Победа Выключена",
+	autowin_failed = "Ошибка Авто Победы",
+	no_tasks_found = "Задания не найдены",
+	tasks_completed = "Задания Взломаны",
+	could_id = "Облачный ID",
+	player_id = "Локальный ID",
+	player_name = "Никнейм Игрока",
+	player_flag = "Флаг Игрока",
+	banned = "Бан",
+	height = "Высота",
+	wide = "Ширина",
+	current = "Статус",
+	gpm_already = "Метод страницы уже используется %s",
+	new_gpm = "Выбрать новый метод страницы",
+	change_gpm_failed = "Не удалось изменить метод получения страницы",
+	gpm_changed = "Метод получения страницы изменен на %s",
+	resolution_changed_to = "Разрешение изменено на %sx%s",
+	replace_print_to = "Заменить 'сообщение' на ...",
+	logging_change = "Включить/Выключить Логирование",
+	logging_state = "Логирование %s",
+	get_logs = "Получить Лог",
+	clear_logs = "Очистить Лог",
+	change_language = "Good point, I will change it to 
+change_language = "Change language (Изменить Язык)"",
+	language_changed = "Язык изменён на %s",
+	successfully_replaced_print = "'Сообщение' успешно изменено на '%s'",
+	bytes_cleared = "%s байты очищены",
+	menu_player_info = "Статистика Игрока",
+	menu_change_resolution = "Изменить Разрешение экрана",
+	menu_change_name = "Изменить Никнейм",
+	menu_temp_unban = "Временный Разбан",
+	menu_change_gpm = "Изменить метод получения страницы",
+	menu_auto_win = "Авто Победа",
+	menu_auto_tasks = "Авто Задания"
+}
