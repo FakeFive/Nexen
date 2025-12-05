@@ -1,4 +1,3 @@
-
 return {
 	gg_not_supported = "Gunakan GameGuardian Zevrythel Modz",
 	not_hcr2_process = "Pilih proses \"Hill Climb Racing 2\" (com.fingersoft.hcr2)",
