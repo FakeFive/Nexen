@@ -45,7 +45,7 @@ return {
 	autowin_failed = "Auto Win failed",
 	no_tasks_found = "No tasks was found",
 	tasks_completed = "Tasks completed",
-	could_id = "Could ID",
+	cloud_id = "Cloud ID",
 	player_id = "Player ID",
 	player_name = "Player Name",
 	player_flag = "Player Flag",
