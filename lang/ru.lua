@@ -1,4 +1,3 @@
-return = gg.alert
 return {
 	gg_not_supported = "Используйте Zevrythel Modz GameGuardian",
 	not_hcr2_process = "Выберите \"Hill Climb Racing 2\" (com.fingersoft.hcr2) процесс",
@@ -77,3 +76,4 @@ change_language = "Change language (Изменить Язык)"",
 	menu_auto_tasks = "Авто Задания"
 
 }
+
