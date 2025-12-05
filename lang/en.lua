@@ -20,6 +20,7 @@ return {
 	alert = "Alert",
 	toast = "Toast",
 	print = "Print",
+	restart = "Restart",
 	invalid_item = "Invalid item",
 	no_action = "No Action",
 	name_too_long = "Name is too long, it will be trimmed",
@@ -58,12 +59,19 @@ return {
 	gpm_changed = "Get Page Method changed to %s",
 	resolution_changed_to = "Resolution changed to %sx%s",
 	replace_print_to = "Replace 'print' to ...",
+	logging_change = "Enable/Disable Logging",
 	logging_state = "Logging %s",
+	get_logs = "Get Logs",
+	clear_logs = "Clear Logs",
+	change_language = "Change Language",
+	language_changed = "Language changed to %s",
 	successfully_replaced_print = "Successfully replaced 'print' with '%s'",
 	bytes_cleared = "%s bytes cleared",
 	menu_player_info = "Player Info",
 	menu_change_resolution = "Change Resolution",
 	menu_change_name = "Change Name",
 	menu_temp_unban = "Temp Unban",
-	menu_change_gpm = "Change Get Page Method"
+	menu_change_gpm = "Change Get Page Method",
+	menu_auto_win = "Auto Win",
+	menu_auto_tasks = "Auto Tasks"
 }
