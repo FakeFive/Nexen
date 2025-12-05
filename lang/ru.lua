@@ -1,55 +1,3 @@
---========================================================--
---                   TRANSLATION GUIDELINES               --
---========================================================--
-
--- 1. DO NOT CHANGE THE KEYS
---    Keys (left side) must remain 100% identical.
---    Example:
---        correct:  exit = "Keluar"
---        wrong:    keluar = "Keluar"      <-- CHANGED KEY (NOT ALLOWED)
-
--- 2. ONLY TRANSLATE THE TEXT ON THE RIGHT SIDE
---    Example:
---        exit = "Exit"    -->   exit = "Keluar"
-
--- 3. KEEP PLACEHOLDERS LIKE %s OR %d IN THE SAME POSITION
---    If a string contains %s, keep it.
---    Example:
---       gpm_already = "Get Page Method is already %s"
---    You MUST keep the %s in your translation.
-
--- 4. KEEP PUNCTUATION UNCHANGED
---    Keep ! ? . : " ' and formatting the same unless your language
---    naturally requires different punctuation.
-
--- 5. DO NOT ADD OR REMOVE KEYS
---    Do not create new keys or delete anything, even if not used.
-
--- 6. DO NOT BREAK LUA SYNTAX
---    If your translation needs a double quote, escape it:
---        "He said \"hello\" to me"
---    If your language uses apostrophes ('):
---        use double quotes: "don't"
-
--- 7. IF YOU DON'T KNOW HOW TO TRANSLATE SOMETHING
---    Leave the English text and inform the lead translator.
-
--- 8. ALWAYS TEST YOUR FILE
---    Run the script to ensure no syntax errors.
-
--- 9. FILE MUST RETURN A TABLE
---    Example:
---        return {
---            exit = "Keluar",
---            home = "Beranda",
---        }
-
--- 10. IF A STRING IS TOO LONG
---     Try to keep translations short so UI doesn't break.
-
---========================================================--
---        Thank you for contributing to the project!       --
---========================================================--
 return = gg.alert
 return {
 	gg_not_supported = "Используйте Zevrythel Modz GameGuardian",
@@ -127,4 +75,5 @@ change_language = "Change language (Изменить Язык)"",
 	menu_change_gpm = "Изменить метод получения страницы",
 	menu_auto_win = "Авто Победа",
 	menu_auto_tasks = "Авто Задания"
+
 }
