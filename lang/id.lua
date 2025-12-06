@@ -63,7 +63,7 @@ return {
 	logging_state = "Logging %s",
 	get_logs = "Ambil Log",
 	clear_logs = "Hapus Log",
-	change_language = "Ubah Bahasa",
+	change_language = "Change Language (Ubah Bahasa)",
 	language_changed = "Bahasa diubah menjadi %s",
 	successfully_replaced_print = "Berhasil mengganti 'print' dengan '%s'",
 	bytes_cleared = "%s byte dibersihkan",
