@@ -62,8 +62,7 @@ return {
 	logging_state = "Логирование %s",
 	get_logs = "Получить Лог",
 	clear_logs = "Очистить Лог",
-	change_language = "Good point, I will change it to 
-change_language = "Change language (Изменить Язык)"",
+	change_language = "Change Language (Изменить Язык)",
 	language_changed = "Язык изменён на %s",
 	successfully_replaced_print = "'Сообщение' успешно изменено на '%s'",
 	bytes_cleared = "%s байты очищены",
@@ -76,4 +75,5 @@ change_language = "Change language (Изменить Язык)"",
 	menu_auto_tasks = "Авто Задания"
 
 }
+
 
