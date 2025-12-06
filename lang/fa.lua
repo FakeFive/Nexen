@@ -45,7 +45,7 @@ return {
 	autowin_failed = "برنده شدن اتوماتیک شکست خورد و با خطا روبرو شد",
 	no_tasks_found = "هیچ ماموریتی پیدا نشد",
 	tasks_completed = "ماموریت ها تکمیل شد",
-	could_id = "شناسه فضای ابری",
+	cloud_id = "شناسه فضای ابری",
 	player_id = "شناسه بازیکن",
 	player_name = "نام بازیکن",
 	player_flag = "پرچم بازیکن",
