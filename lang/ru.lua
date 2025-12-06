@@ -44,7 +44,7 @@ return {
 	autowin_failed = "Ошибка Авто Победы",
 	no_tasks_found = "Задания не найдены",
 	tasks_completed = "Задания Взломаны",
-	could_id = "Облачный ID",
+	cloud_id = "Облачный ID",
 	player_id = "Локальный ID",
 	player_name = "Никнейм Игрока",
 	player_flag = "Флаг Игрока",
@@ -75,5 +75,6 @@ return {
 	menu_auto_tasks = "Авто Задания"
 
 }
+
 
 
