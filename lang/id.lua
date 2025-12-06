@@ -45,7 +45,7 @@ return {
 	autowin_failed = "Auto Win gagal",
 	no_tasks_found = "Tidak ada tugas ditemukan",
 	tasks_completed = "Tugas selesai",
-	clould_id = "ID Cloud",
+	cloud_id = "ID Cloud",
 	player_id = "ID Pemain",
 	player_name = "Nama Pemain",
 	player_flag = "Bendera Pemain",
